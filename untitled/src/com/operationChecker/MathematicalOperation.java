@@ -44,7 +44,7 @@ public class MathematicalOperation {
 
     void findPalindromeNumberInRange(int lower, int upper){
 
-        System.out.println("Even number between "+ lower+ " and "+upper+ ":");
+        System.out.println("Palindrome number between "+ lower+ " and "+upper+ ":");
         for(int i =lower;i<=upper;i++) {
 
             int num,remainder,reversedNum=0;
