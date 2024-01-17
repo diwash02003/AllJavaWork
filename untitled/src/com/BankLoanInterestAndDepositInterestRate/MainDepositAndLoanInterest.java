@@ -35,7 +35,7 @@ public class MainDepositAndLoanInterest {
                     System.out.println("User Interface: ");
                     System.out.println("-----------------");
 
-                    for(int i = 0;i<bank.length;i++){
+                    for (int i = 0;i<bank.length;i++){
                         bankIO.DisplayBank(bank[i]);
                     }
                     System.out.println("-----------------------------------");
