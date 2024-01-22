@@ -3,12 +3,15 @@ package com.FileWorks;
 public class User {
 
     private String rollNumber;
-    private String name;
+    private String firstName;
+    private String lastName;
     private String mobileNumber;
 
-    public User(String rollNumber, String name, String mobileNumber) {
+
+    public User(String rollNumber, String firstName, String lastName,String mobileNumber) {
         this.rollNumber = rollNumber;
-        this.name = name;
+        this.firstName = firstName;
+        this.lastName= lastName;
         this.mobileNumber = mobileNumber;
     }
 
@@ -16,10 +19,10 @@ public class User {
         return rollNumber;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
-
+    public String getLastName(){return  lastName;}
     public String getMobileNumber() {
         return mobileNumber;
     }
