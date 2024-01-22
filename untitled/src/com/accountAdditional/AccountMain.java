@@ -16,7 +16,7 @@ public class AccountMain {
         AccountIO accountIO = new AccountIO();
         Transaction transaction = new Transaction();
 
-        int size = 2;
+        int size = 3 ;
         Account[] accounts = new Account[size];
         for (int i = 0; i < accounts.length; i++) {
             accounts[i] = accountIO.readAccount();

@@ -1,0 +1,36 @@
+101, John Doe, 123-456-7890
+102, Jane Smith, 987-654-3210
+103, Alice Johnson, 555-123-4567
+104, Bob Williams, 789-012-3456
+105, Eva Davis, 321-654-0987
+106, Michael Lee, 111-222-3333
+107, Sara Brown, 444-555-6666
+108, David Miller, 777-888-9999
+109, Sophia White, 222-333-4444
+110, Daniel Jones, 666-777-8888
+
+
+
+=========================================================
+== ----------------------output----------------------- ==
+=========================================================
+
+RollNumber: 101    Name: John Doe    Phone Number: 123-456-7890
+RollNumber: 102    Name: Jane Smith    Phone Number: 987-654-3210
+RollNumber: 103    Name: Alice Johnson    Phone Number: 555-123-4567
+RollNumber: 104    Name: Bob Williams    Phone Number: 789-012-3456
+RollNumber: 105    Name: Eva Davis    Phone Number: 321-654-0987
+RollNumber: 106    Name: Michael Lee    Phone Number: 111-222-3333
+RollNumber: 107    Name: Sara Brown    Phone Number: 444-555-6666
+RollNumber: 108    Name: David Miller    Phone Number: 777-888-9999
+RollNumber: 109    Name: Sophia White    Phone Number: 222-333-4444
+RollNumber: 110    Name: Daniel Jones    Phone Number: 666-777-8888
+----------------------------------------------------------------------------
+Printing name start with  'a'
+RollNumber: 103    Name: Alice Johnson    Phone Number: 555-123-4567
+----------------------------------------------------------------------------
+Printing name start with  'b'
+RollNumber: 104    Name: Bob Williams    Phone Number: 789-012-3456
+----------------------------------------------------------------------------
+Printing phone number start with  '77'
+RollNumber: 108    Name: David Miller    Phone Number: 777-888-9999
